@@ -4,7 +4,6 @@ int main(int argc, char **argv)
 {
     while (1)
     {
-        // Display the prompt
         write(STDOUT_FILENO, "$ ", 2);
 
         // Read the command from the user
@@ -44,5 +43,5 @@ int main(int argc, char **argv)
         }
     }
 
-    return 0;
+    return (0);
 }
