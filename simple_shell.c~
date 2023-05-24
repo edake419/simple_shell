@@ -1,5 +1,7 @@
 #include "simple_shell.h"
 
+#define MAX_COMMAND_LENGTH 100
+
 int main(int argc, char **argv)
 {
     while (1)
