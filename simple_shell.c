@@ -1,9 +1,14 @@
-#include "simple_shell.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <unistd.h>
+#include "shell.h"
 
 #define MAX_COMMAND_LENGTH 100
+
+/**
+ * main - entry point for shell program
+ * @argc: number of command line arguments
+ * @args: array of command line arguments
+ *
+ * Return: exit status
+ */
 
 int main(int argc, char **argv)
 {
